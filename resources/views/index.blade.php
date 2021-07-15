@@ -117,8 +117,15 @@
 									<div class="tg-colhalf pull-right">
 										<nav class="tg-addnav">
 											<ul>
-												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-login">login</a></li>
-												<li><a href="javascript().html" data-toggle="modal" data-target="#tg-register">Register</a></li>
+												@auth
+												<a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">@lang('task.home')</a>
+											@else
+												<a href="{{ route('login') }}" class="text-sm text-gray-700 underline">@lang('task.login')</a>
+						
+												@if (Route::has('register'))
+													<a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">@lang('task.register')</a>
+												@endif
+											@endauth
 												<li>
 													<div class="tg-cart">
 														<a href="javascript:void(0)" class="dropdown-toggle" id="tg-cartdropdown" data-toggle="dropdown">
