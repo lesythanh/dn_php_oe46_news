@@ -1,6 +1,25 @@
 {
     "/js/app.js": "/js/app.js",
+<<<<<<< HEAD
     "/js/template.js": "/js/template.js",
     "/css/app.css": "/css/app.css",
     "/css/style.css": "/css/style.css"
+=======
+    "/css/app.css": "/css/app.css",
+    "/css/animate.css": "/css/animate.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/color.css": "/css/color.css",
+    "/css/customScrollbar.css": "/css/customScrollbar.css",
+    "/css/font-awesome.css": "/css/font-awesome.css",
+    "/css/icomoon.css": "/css/icomoon.css",
+    "/css/jquery-ui.css": "/css/jquery-ui.css",
+    "/css/main.css": "/css/main.css",
+    "/css/normalize.css": "/css/normalize.css",
+    "/css/owl.carousel.css": "/css/owl.carousel.css",
+    "/css/owl.theme.css": "/css/owl.theme.css",
+    "/css/prettyPhoto.css": "/css/prettyPhoto.css",
+    "/css/responsive.css": "/css/responsive.css",
+    "/css/swiper.min.css": "/css/swiper.min.css",
+    "/css/transitions.css": "/css/transitions.css"
+>>>>>>> dbbb7e9 (add cssNews)
 }
