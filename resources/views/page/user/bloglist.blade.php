@@ -8,8 +8,13 @@
                     <h2>Latest blogs / News</h2>
                 </div>
                 <div class="col-sm-11 col-xs-11 pull-right">
+                    <form class="form-search">
+                        <fieldset>
+                            <input type="search" placeholder="Search Here" class="form-control">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </fieldset>
+                    </form>
                     @foreach ($posts as $post)
-            
                     <div class="tg-blogpost tg-blogpostlist">
                         <div class="row">
                             <div class="col-sm-6 col-xs-12">
